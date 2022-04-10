@@ -1,0 +1,383 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.navegacion
+{
+    width: 1200px;
+    margin: 30px auto;
+    background-color: white;
+}
+
+.navegacion ul
+{
+    list-style: none;
+}
+
+.menu > li
+{
+    position: relative;
+    display: inline-block;
+}
+
+.menu li > a
+{
+    display: block;
+    padding: 15px 60px;
+    color: #353535;
+    font-family: "Arial Narrow";
+    font-size: xx-large;
+    text-decoration: none;
+}
+
+.menu li a:hover
+{
+    color: #CE7D35;
+    transition: all 0.5s;
+}
+
+
+
+
+
+.pie_pagina
+{
+    font-family: 'Courier New', Courier, monospace;
+    text-align-last:center ;
+}
+
+
+
+
+
+
+/* Propiedad para hacer responsive la imagen del banner*/
+.banner img{
+    width: 100%;
+    height: auto;
+}
+
+.contenedor_banner{
+    border: aquamarine 10px solid;
+    border-radius: 200px;
+    width: 100%;
+    height: auto;
+    max-height: 550px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(98,1,204,255);
+}
+
+/*propiedades para modificar el contenedor_global*/
+
+.contenedor_global{
+    border: aquamarine 10px solid;
+    width: 100%;
+    height: auto;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 1fr 2fr;
+    border-radius: 1rem;
+    padding: 20px;
+
+}
+
+.interno_imagen{
+    border: rgba(98,1,204,255) 15px solid;
+    border-radius: 2rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-color: aqua;
+    
+}
+
+.imagen{
+    width: 200%;
+    height: auto;
+    
+
+}
+.interno_info{
+    border: rgba(98,1,204,255) 15px solid;
+    display: grid;
+    border-radius: 2rem;
+    gap: 20px;
+    padding: 8%;
+}
+
+
+
+.global{
+    padding: 30px;
+}
+
+.mapa{
+    width: 900px;
+    height: 600px;
+    
+    
+
+}
+
+
+/* propiedades para hacer responsive el div central */
+
+    .block{
+        background-color: #181616;
+        width: auto;
+        height: auto;
+        padding: 5px;
+        border-radius: 1%;
+        grid-template-columns: 1fr 1fr;
+        display: grid;
+        
+    }
+
+
+    .block>.item{
+        display: grid;
+        width: 160px;
+        height: 200px;
+        background-color: #000000;
+        border: 1px;
+        border-radius: 5%;
+        margin: 10px 10px 10px 10px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+   
+
+    
+
+
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+
+    .changingimage img {
+        width: 160px;
+        height: 150px;
+        object-fit: cover;
+        transition: all 0.2s;
+        border-radius: 5%;
+    }
+
+    .title {
+        text-align: center;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 1000;
+        color: rgb(191, 78, 17);
+        white-space: nowrap;
+        padding: 0px 0px;
+        left: 0;
+        right: 0;
+
+    
+        
+    }
+
+    /*propiedades de cuadros de descripcion*/
+
+    .full_description{
+        
+        display: grid;
+        width: auto;
+        max-width: 1200px;
+        border: 5px rgb(253, 172, 95) outset;
+        border-radius: 10px;
+        padding: 15px;
+        font-size: large;
+        color: rgb(230, 225, 221);
+        margin: auto;
+
+    }
+
+    .cap_list{
+        display: grid;
+        width: auto;
+        max-width: 1200px;
+        border: 5px rgb(253, 172, 95) outset;
+        border-radius: 10px;
+        padding: 15px;
+        color: rgb(255, 255, 255);
+        margin: auto;
+    }
+
+    .title_list{
+        color: rgb(242, 128, 22);
+    }
+
+    .contenedor{
+        padding: 20px;
+        border: 2px;
+    }
+
+    .titulo{
+        color: #fff;
+    }
+
+    .video {
+        display: grid;
+        width: -webkit-fill-available;
+    }
+
+
+
+
+.contenedor_informacion{
+    border: aquamarine 10px solid;
+    border-radius: 1rem;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    gap: 20px;
+}
+
+.derecha{
+    border:rgba(123,40,244,255) 10px solid;
+    border-radius: 1rem;
+    overflow: hidden;
+    
+}
+
+.izquierda {
+    border: rgba(123,40,244,255) 10px solid;
+    border-radius: 1rem;
+    display: grid;
+    height: auto;
+    width: 100%;
+    padding: 10%;
+    gap: 20px;
+    
+
+}
+
+h3 {
+    font-size: 1.5vw;
+
+}
+
+p {
+    font-size: 0.8vw;
+}
+
+.informacion {
+    width: 100%;
+    height: auto;
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    font-size:x-small;
+    padding: 3%;
+    gap: 10px;
+    border-radius: 10px;
+    
+
+}
+
+.bloque-interno {
+    padding: 5%;
+}
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+/*estilos para ventanas modal*/
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #edeef6;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+button {
+  background-color: #47a386;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 25px;
+}
+
+.modal-container {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.3);
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  pointer-events: none;
+  opacity: 0;  
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  transition: opacity 0.3s ease;
+}
+
+.show {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.modal {
+  background-color: #fff;
+  width: 700px;
+  max-width: 100%;
+  padding: 30px 50px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.modal h1 {
+  margin: 0;
+}
+
+.modal p {
+  opacity: 0.7;
+  font-size: 14px;
+}
+
+
+
